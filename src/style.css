@@ -1,0 +1,49 @@
+#canvas {
+    margin: 0 auto;
+    border: 2px solid rgb(183, 2, 2);
+}
+
+.ui {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    min-width: 50%;
+
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.controls {
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
